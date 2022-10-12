@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : '无远虑有近忧';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.'
+    : 'All rights reserved.';
       'Contact Me:run2agoal@outlook.com';
 
   return {
