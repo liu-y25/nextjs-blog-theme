@@ -4,7 +4,7 @@ export const getGlobalData = () => {
     : 'Run2Agoal';
   const blogTitle = process.env.BLOG_TITLE
     ? decodeURI(process.env.BLOG_TITLE)
-    : '无远虑有近忧';
+    : 'Next.js Blog Theme';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
     : 'All rights reserved.';
